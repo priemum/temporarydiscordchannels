@@ -1,5 +1,5 @@
 const Discord = require("discord.js")
-const bot = new Discord.Client()
+const bot = new Discord.Client()      
 
 bot.on("voiceStateUpdate", (oldState, newState) => {
   // Checking users new voice channel state and if the left channel has 0 members left.
